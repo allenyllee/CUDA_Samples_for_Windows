@@ -14,10 +14,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{997E0757-EA74-4A4E-A0FC-47D8C8831A15}</ProjectGuid>
+    <ProjectGuid>{3A2AB198-3FC2-4580-93AD-3A1897927FB7}</ProjectGuid>
     <RootNamespace>simpleD3D11Texture_vs2017</RootNamespace>
     <ProjectName>simpleD3D11Texture</ProjectName>
     <CudaToolkitCustomDir />
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup>

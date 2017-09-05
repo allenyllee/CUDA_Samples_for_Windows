@@ -14,10 +14,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{997E0757-EA74-4A4E-A0FC-47D8C8831A15}</ProjectGuid>
+    <ProjectGuid>{0DA03E18-5060-49B3-A5B4-E81FF7F7E397}</ProjectGuid>
     <RootNamespace>shfl_scan_vs2017</RootNamespace>
     <ProjectName>shfl_scan</ProjectName>
     <CudaToolkitCustomDir />
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup>

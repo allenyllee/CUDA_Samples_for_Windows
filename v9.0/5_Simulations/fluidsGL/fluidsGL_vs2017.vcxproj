@@ -14,10 +14,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{997E0757-EA74-4A4E-A0FC-47D8C8831A15}</ProjectGuid>
+    <ProjectGuid>{0E4431BE-7189-4FEA-9797-8F4158485338}</ProjectGuid>
     <RootNamespace>fluidsGL_vs2017</RootNamespace>
     <ProjectName>fluidsGL</ProjectName>
     <CudaToolkitCustomDir />
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup>

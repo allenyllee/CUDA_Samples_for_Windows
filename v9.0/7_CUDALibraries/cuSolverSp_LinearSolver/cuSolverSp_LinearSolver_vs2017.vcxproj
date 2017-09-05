@@ -14,10 +14,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{997E0757-EA74-4A4E-A0FC-47D8C8831A15}</ProjectGuid>
+    <ProjectGuid>{94DC7806-7F32-4625-B515-C20387A461F5}</ProjectGuid>
     <RootNamespace>cuSolverSp_LinearSolver_vs2017</RootNamespace>
     <ProjectName>cuSolverSp_LinearSolver</ProjectName>
     <CudaToolkitCustomDir />
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup>

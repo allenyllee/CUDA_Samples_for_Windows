@@ -14,10 +14,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{997E0757-EA74-4A4E-A0FC-47D8C8831A15}</ProjectGuid>
+    <ProjectGuid>{3417CDE7-F04E-40AE-A7CE-0134EFC1321D}</ProjectGuid>
     <RootNamespace>simpleCUDA2GL_vs2017</RootNamespace>
     <ProjectName>simpleCUDA2GL</ProjectName>
     <CudaToolkitCustomDir />
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup>
@@ -109,7 +110,6 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <CudaCompile Include="simpleCUDA2GL.cu" />
-
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
