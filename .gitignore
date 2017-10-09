@@ -1,0 +1,6 @@
+*/bin/win64/Debug/
+*/bin/win64/Release/
+*/*/*/x64/Debug/
+*/*/*/x64/Release/
+*/.vs/
+*.pdb

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Simple", "0_Simple", "{6A5D66B1-70FD-4D7A-B2BB-CFBA63329B7D}"
 EndProject
@@ -356,6 +356,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reductionMultiBlockCG", "6_Advanced\reductionMultiBlockCG\reductionMultiBlockCG_vs2015.vcxproj", "{A1408F78-FAC2-4596-95B1-6A2841CFE9E2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "warpAggregatedAtomicsCG", "6_Advanced\warpAggregatedAtomicsCG\warpAggregatedAtomicsCG_vs2015.vcxproj", "{9D587DF4-945F-451D-8556-DB272701C563}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleCooperativeGroups", "0_Simple\simpleCooperativeGroups\simpleCooperativeGroups_vs2015.vcxproj", "{0E98BBF9-74E5-4B7A-8DD5-F98F3EE23159}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conjugateGradientMultiBlockCG", "6_Advanced\conjugateGradientMultiBlockCG\conjugateGradientMultiBlockCG_vs2015.vcxproj", "{1A270904-59A3-4DE7-B455-16447CB07EDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cudaTensorCoreGemm", "0_Simple\cudaTensorCoreGemm\cudaTensorCoreGemm_vs2015.vcxproj", "{67865572-9FF8-45F6-91FE-5F48A553164A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -999,6 +1005,18 @@ Global
 		{9D587DF4-945F-451D-8556-DB272701C563}.Debug|x64.Build.0 = Debug|x64
 		{9D587DF4-945F-451D-8556-DB272701C563}.Release|x64.ActiveCfg = Release|x64
 		{9D587DF4-945F-451D-8556-DB272701C563}.Release|x64.Build.0 = Release|x64
+		{0E98BBF9-74E5-4B7A-8DD5-F98F3EE23159}.Debug|x64.ActiveCfg = Debug|x64
+		{0E98BBF9-74E5-4B7A-8DD5-F98F3EE23159}.Debug|x64.Build.0 = Debug|x64
+		{0E98BBF9-74E5-4B7A-8DD5-F98F3EE23159}.Release|x64.ActiveCfg = Release|x64
+		{0E98BBF9-74E5-4B7A-8DD5-F98F3EE23159}.Release|x64.Build.0 = Release|x64
+		{1A270904-59A3-4DE7-B455-16447CB07EDD}.Debug|x64.ActiveCfg = Debug|x64
+		{1A270904-59A3-4DE7-B455-16447CB07EDD}.Debug|x64.Build.0 = Debug|x64
+		{1A270904-59A3-4DE7-B455-16447CB07EDD}.Release|x64.ActiveCfg = Release|x64
+		{1A270904-59A3-4DE7-B455-16447CB07EDD}.Release|x64.Build.0 = Release|x64
+		{67865572-9FF8-45F6-91FE-5F48A553164A}.Debug|x64.ActiveCfg = Debug|x64
+		{67865572-9FF8-45F6-91FE-5F48A553164A}.Debug|x64.Build.0 = Debug|x64
+		{67865572-9FF8-45F6-91FE-5F48A553164A}.Release|x64.ActiveCfg = Release|x64
+		{67865572-9FF8-45F6-91FE-5F48A553164A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1173,5 +1191,8 @@ Global
 		{F998ABB6-4F56-40DB-808D-B7ADEB238F79} = {6A5D66B1-70FD-4D7A-B2BB-CFBA63329B7D}
 		{A1408F78-FAC2-4596-95B1-6A2841CFE9E2} = {553DB038-76F0-4954-ADB0-40B8836DF3CC}
 		{9D587DF4-945F-451D-8556-DB272701C563} = {553DB038-76F0-4954-ADB0-40B8836DF3CC}
+		{0E98BBF9-74E5-4B7A-8DD5-F98F3EE23159} = {6A5D66B1-70FD-4D7A-B2BB-CFBA63329B7D}
+		{1A270904-59A3-4DE7-B455-16447CB07EDD} = {553DB038-76F0-4954-ADB0-40B8836DF3CC}
+		{67865572-9FF8-45F6-91FE-5F48A553164A} = {6A5D66B1-70FD-4D7A-B2BB-CFBA63329B7D}
 	EndGlobalSection
 EndGlobal

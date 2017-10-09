@@ -265,21 +265,6 @@ main(int argc, char **argv)
     sprintf(cTemp, "%d", deviceCount);
 #endif
     sProfileString += cTemp;
-
-    // Print Out all device Names
-    for (dev = 0; dev < deviceCount; ++dev)
-    {
-#if defined(WIN32) || defined(_WIN32) || defined(WIN64) || defined(_WIN64)
-        sprintf_s(cTemp, 13, ", Device%d = ", dev);
-#else
-        sprintf(cTemp, ", Device%d = ", dev);
-#endif
-        cudaDeviceProp deviceProp;
-        cudaGetDeviceProperties(&deviceProp, dev);
-        sProfileString += cTemp;
-        sProfileString += deviceProp.name;
-    }
-
     sProfileString += "\n";
     printf("%s", sProfileString.c_str());
 

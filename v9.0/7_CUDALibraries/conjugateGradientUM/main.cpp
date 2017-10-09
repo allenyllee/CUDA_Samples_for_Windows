@@ -197,7 +197,7 @@ int main(int argc, char **argv)
 
     printf("Final residual: %e\n",sqrt(r1));
 
-    fprintf(stdout,"&&&& uvm_cg test %s\n", (sqrt(r1) < tol) ? "PASSED" : "FAILED");
+    fprintf(stdout,"&&&& conjugateGradientUM %s\n", (sqrt(r1) < tol) ? "PASSED" : "FAILED");
 
     float rsum, diff, err = 0.0;
 

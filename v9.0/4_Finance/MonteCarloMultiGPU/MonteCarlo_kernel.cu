@@ -144,6 +144,7 @@ extern "C" void initMonteCarloGPU(TOptionPlan *plan)
     //Allocate states for pseudo random number generators
     checkCudaErrors(cudaMalloc((void **) &plan->rngStates,
                                plan->gridSize * THREAD_N * sizeof(curandState)));
+    checkCudaErrors(cudaMemset(plan->rngStates, 0, plan->gridSize * THREAD_N * sizeof(curandState)));
 
     // place each device pathN random numbers apart on the random number sequence
     rngSetupStates<<<plan->gridSize, THREAD_N>>>(plan->rngStates, plan->device);

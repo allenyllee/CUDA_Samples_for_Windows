@@ -56,8 +56,8 @@ __global__ void shfl_scan_test(int *data, int width, int *partial_sums=NULL)
     // those threads where the thread 'i' away would have
     // been out of bounds of the warp are unaffected.  This
     // creates the scan sum.
-#pragma unroll
 
+#pragma unroll
     for (int i=1; i<=width; i*=2)
     {
         unsigned int mask = 0xffffffff;
@@ -85,10 +85,10 @@ __global__ void shfl_scan_test(int *data, int width, int *partial_sums=NULL)
     {
         int warp_sum = sums[lane_id];
 
-        for (int i=1; i<=width; i*=2)
+        int mask = (1 << (blockDim.x / warpSize)) - 1;
+        for (int i=1; i<=(blockDim.x / warpSize); i*=2)
         {
-            unsigned int mask = 0xffffffff;
-            int n = __shfl_up_sync(mask, warp_sum, i, width);
+            int n = __shfl_up_sync(mask, warp_sum, i, (blockDim.x / warpSize));
 
             if (lane_id >= i) warp_sum += n;
         }
